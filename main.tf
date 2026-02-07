@@ -12,5 +12,6 @@ provider "aws" {
 }
 #create a s3 bucket
 resource "aws_s3_bucket" "example" {
-  bucket = "my-terraform-learning-bucket"
+  bucket = "ajan-terraform-learning-bucket-2026-001"
 }
+
