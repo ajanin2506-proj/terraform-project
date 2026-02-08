@@ -10,8 +10,4 @@ terraform {
 provider "aws" {
   region = "ap-south-1"
 }
-#create a s3 bucket
-resource "aws_s3_bucket" "example" {
-  bucket = "ajan-terraform-learning-bucket-2026-001"
-}
 
