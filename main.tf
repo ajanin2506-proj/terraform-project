@@ -19,13 +19,3 @@ provider "aws" {
 resource "aws_s3_bucket" "example" {
   bucket = var.bucket_name
 }
-
-resource "aws_s3_bucket" "my_bucket" {
-  bucket = "ajan-terraform-learning-bucket-0110"
-}
-
-resource "aws_s3_bucket" "my_bucket_1" {
-  bucket = "ajan-terraform-learning-bucket-0320"
-}
-
-
